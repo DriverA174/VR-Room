@@ -1,0 +1,491 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.14f1 (eee1884e7226) revision 15655304'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Education' Language: 'en' Physical Memory: 7531 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/1142430/Documents/VR Room Project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60632
+Successfully changed project path to: C:/Users/1142430/Documents/VR Room Project
+C:/Users/1142430/Documents/VR Room Project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 80.69 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 1.03 ms.
+Initialize engine version: 2021.3.14f1 (eee1884e7226)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/1142430/Documents/VR Room Project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6400 (ID=0x743f)
+    Vendor:   ATI
+    VRAM:     4052 MB
+    Driver:   30.0.14030.4003
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56112
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.016966 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 50.87 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.570 seconds
+Domain Reload Profiling:
+	ReloadAssembly (571ms)
+		BeginReloadAssembly (80ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (378ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (82ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (225ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (53ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (51ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (76ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.016058 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 52.51 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Package Manager log level set to [2]
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\1142430\Documents\VR Room Project\Library\PackageCache\com.unity.xr.oculus@3.2.1\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\1142430\Documents\VR Room Project\Library\PackageCache\com.unity.xr.oculus@3.2.1\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d6232873609549b8a045fa15811a5bd3>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <d6232873609549b8a045fa15811a5bd3>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <d6232873609549b8a045fa15811a5bd3>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <6a5b55f2e18b419e9faedac06ac6af94>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.255 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1256ms)
+		BeginReloadAssembly (217ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (126ms)
+		EndReloadAssembly (930ms)
+			LoadAssemblies (111ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (189ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (543ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (53ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (282ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.14 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 4357 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (457.0 KB). Loaded Objects now: 4795.
+Memory consumption went from 190.5 MB to 190.0 MB.
+Total: 5.222000 ms (FindLiveObjects: 0.335300 ms CreateObjectMapping: 0.258100 ms MarkObjects: 4.330800 ms  DeleteObjects: 0.297000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6498.537567 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/Room_Rustic 1.prefab
+  artifactKey: Guid(467fc65db52e1914caf55d6a7695242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/Room_Rustic 1.prefab using Guid(467fc65db52e1914caf55d6a7695242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7032e6f49a8bbebd6ed3ac58aa4eb65') in 0.248084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.213983 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/Room_Rustic 1.prefab
+  artifactKey: Guid(467fc65db52e1914caf55d6a7695242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/Room_Rustic 1.prefab using Guid(467fc65db52e1914caf55d6a7695242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f981b0278fd7a58dd2e387b64e71c375') in 0.030829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.181815 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/Room_Rustic 1.prefab
+  artifactKey: Guid(467fc65db52e1914caf55d6a7695242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/Room_Rustic 1.prefab using Guid(467fc65db52e1914caf55d6a7695242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19c13bb0b1f09ea767e85a60de789b5a') in 0.029064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.645377 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/Room_Rustic 1.prefab
+  artifactKey: Guid(467fc65db52e1914caf55d6a7695242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/Room_Rustic 1.prefab using Guid(467fc65db52e1914caf55d6a7695242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7365f548ea1302861ca598e13c7e26d1') in 0.029656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.015382 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/Room_Rustic 1.prefab
+  artifactKey: Guid(467fc65db52e1914caf55d6a7695242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/Room_Rustic 1.prefab using Guid(467fc65db52e1914caf55d6a7695242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd2ab07016af990734c923bcf5b5dd50') in 0.029179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 71.616493 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/Room_Rustic 1.prefab
+  artifactKey: Guid(467fc65db52e1914caf55d6a7695242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/Room_Rustic 1.prefab using Guid(467fc65db52e1914caf55d6a7695242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a3b8a817c907d2d9b862abae04aa545') in 0.028764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.610347 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/Room_Rustic 1.prefab
+  artifactKey: Guid(467fc65db52e1914caf55d6a7695242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/Room_Rustic 1.prefab using Guid(467fc65db52e1914caf55d6a7695242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '401d2f9e04852d42a51c86d073eb39d8') in 0.029881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.382205 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/Room_Rustic 1.prefab
+  artifactKey: Guid(467fc65db52e1914caf55d6a7695242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/Room_Rustic 1.prefab using Guid(467fc65db52e1914caf55d6a7695242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de6bd4a54986f96c9e1cc204771c9ff0') in 0.029235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.611652 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/Room_Rustic 1.prefab
+  artifactKey: Guid(467fc65db52e1914caf55d6a7695242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/Room_Rustic 1.prefab using Guid(467fc65db52e1914caf55d6a7695242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e995ea15ca40c8f0db59e5bc6177f7b') in 0.026687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.877107 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/Room_Rustic 1.prefab
+  artifactKey: Guid(467fc65db52e1914caf55d6a7695242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/Room_Rustic 1.prefab using Guid(467fc65db52e1914caf55d6a7695242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be9d643ed41fa6c6ef806c60093a4334') in 0.025872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.993251 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/Room_Rustic 1.prefab
+  artifactKey: Guid(467fc65db52e1914caf55d6a7695242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/Room_Rustic 1.prefab using Guid(467fc65db52e1914caf55d6a7695242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '797488bea92926e7b76010cc742e5038') in 0.025426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.223360 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/Room_Rustic 1.prefab
+  artifactKey: Guid(467fc65db52e1914caf55d6a7695242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/Room_Rustic 1.prefab using Guid(467fc65db52e1914caf55d6a7695242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a992e5976e774e7ba9fd4df171fdd2e') in 0.025528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.612324 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/Room_Rustic 1.prefab
+  artifactKey: Guid(467fc65db52e1914caf55d6a7695242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/Room_Rustic 1.prefab using Guid(467fc65db52e1914caf55d6a7695242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5c0801970959f2fd4a16b9b6284782c') in 0.025928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.871472 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/Room_Rustic 1.prefab
+  artifactKey: Guid(467fc65db52e1914caf55d6a7695242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/Room_Rustic 1.prefab using Guid(467fc65db52e1914caf55d6a7695242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86dea87c824d31202b5ce762d8c2a20f') in 0.025484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.630553 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/Room_Rustic 1.prefab
+  artifactKey: Guid(467fc65db52e1914caf55d6a7695242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/Room_Rustic 1.prefab using Guid(467fc65db52e1914caf55d6a7695242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2644ce7485d42231f9c9507b195d00ce') in 0.026070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.385180 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/Room_Rustic 1.prefab
+  artifactKey: Guid(467fc65db52e1914caf55d6a7695242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/Room_Rustic 1.prefab using Guid(467fc65db52e1914caf55d6a7695242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2e0750d7956432fc3086bb434dbf9ad') in 0.027175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.403874 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/Room_Rustic 1.prefab
+  artifactKey: Guid(467fc65db52e1914caf55d6a7695242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/Room_Rustic 1.prefab using Guid(467fc65db52e1914caf55d6a7695242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f26888f12e200c2adc550d35f4c18049') in 0.026589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.833829 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/Room_Rustic 1.prefab
+  artifactKey: Guid(467fc65db52e1914caf55d6a7695242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/Room_Rustic 1.prefab using Guid(467fc65db52e1914caf55d6a7695242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '811409221cadfbef15d33c9f918bc9ae') in 0.027458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.026368 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/Room_Rustic 1.prefab
+  artifactKey: Guid(467fc65db52e1914caf55d6a7695242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/Room_Rustic 1.prefab using Guid(467fc65db52e1914caf55d6a7695242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58ad2b50b41338139137afa06e47f14e') in 0.026015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.889268 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/Room_Rustic 1.prefab
+  artifactKey: Guid(467fc65db52e1914caf55d6a7695242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/Room_Rustic 1.prefab using Guid(467fc65db52e1914caf55d6a7695242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47261071eb19e334bfc7404faded0521') in 0.025603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.690560 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/Room_Rustic 1.prefab
+  artifactKey: Guid(467fc65db52e1914caf55d6a7695242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/Room_Rustic 1.prefab using Guid(467fc65db52e1914caf55d6a7695242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb38e9deb81dd66387aedc81f91a20bf') in 0.026473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 55.939651 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/RoomRusticLevel.prefab
+  artifactKey: Guid(467fc65db52e1914caf55d6a7695242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/RoomRusticLevel.prefab using Guid(467fc65db52e1914caf55d6a7695242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71180dca86c2fa1e6ce8108be697643c') in 0.027624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 830.338627 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/RoomRusticLevel.prefab
+  artifactKey: Guid(467fc65db52e1914caf55d6a7695242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/RoomRusticLevel.prefab using Guid(467fc65db52e1914caf55d6a7695242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26a42c84f0fa13f352fdab9febbab9f5') in 0.113143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.899364 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/RoomRusticLevel.prefab
+  artifactKey: Guid(467fc65db52e1914caf55d6a7695242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/RoomRusticLevel.prefab using Guid(467fc65db52e1914caf55d6a7695242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5f4fd3986252bd8a770f65fe66718ba') in 0.027436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.397557 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/RoomRusticLevel.prefab
+  artifactKey: Guid(467fc65db52e1914caf55d6a7695242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/RoomRusticLevel.prefab using Guid(467fc65db52e1914caf55d6a7695242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89749f8cfa7d80baeafd71ff13e6e615') in 0.026653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.003535 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/RoomRusticLevel.prefab
+  artifactKey: Guid(467fc65db52e1914caf55d6a7695242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/RoomRusticLevel.prefab using Guid(467fc65db52e1914caf55d6a7695242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53a32aa5156ae90fe151e7bd974b9355') in 0.026251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.421944 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/RoomRusticLevel.prefab
+  artifactKey: Guid(467fc65db52e1914caf55d6a7695242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/RoomRusticLevel.prefab using Guid(467fc65db52e1914caf55d6a7695242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cdb451ccb36658fa5de230edc371663') in 0.026199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.630325 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/RoomRusticLevel.prefab
+  artifactKey: Guid(467fc65db52e1914caf55d6a7695242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/RoomRusticLevel.prefab using Guid(467fc65db52e1914caf55d6a7695242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aaa83b125d3a6f997a961870a6feca6') in 0.025631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.020531 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/RoomRusticLevel.prefab
+  artifactKey: Guid(467fc65db52e1914caf55d6a7695242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/RoomRusticLevel.prefab using Guid(467fc65db52e1914caf55d6a7695242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20b9b6f4110f01537da447a391480329') in 0.027405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.023705 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/RoomRusticLevel.prefab
+  artifactKey: Guid(467fc65db52e1914caf55d6a7695242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/RoomRusticLevel.prefab using Guid(467fc65db52e1914caf55d6a7695242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c45a465e9fb7aaff96a0c10fc8a3049') in 0.027096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 98.824380 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/RoomRusticLevel 1.prefab
+  artifactKey: Guid(b94c324ba4e4da242a3a4361b9c5cfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/RoomRusticLevel 1.prefab using Guid(b94c324ba4e4da242a3a4361b9c5cfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdae8b2acfe9e5fe14ebf3ab1bb54ee1') in 0.028814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.801143 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/RoomRusticLevel 1.prefab
+  artifactKey: Guid(b94c324ba4e4da242a3a4361b9c5cfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/RoomRusticLevel 1.prefab using Guid(b94c324ba4e4da242a3a4361b9c5cfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c4512c5e683b1e89b199a4abbd19eb4') in 0.025673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.161322 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/RoomRusticLevel 1.prefab
+  artifactKey: Guid(b94c324ba4e4da242a3a4361b9c5cfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/RoomRusticLevel 1.prefab using Guid(b94c324ba4e4da242a3a4361b9c5cfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfd9a07b33b8497bd82b2fc9c7c0274f') in 0.025510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.010350 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/RoomRusticLevel 1.prefab
+  artifactKey: Guid(b94c324ba4e4da242a3a4361b9c5cfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/RoomRusticLevel 1.prefab using Guid(b94c324ba4e4da242a3a4361b9c5cfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8ee97a03f3b521d7fca5453e897eae1') in 0.025636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.384532 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/RoomRusticLevel 1.prefab
+  artifactKey: Guid(b94c324ba4e4da242a3a4361b9c5cfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/RoomRusticLevel 1.prefab using Guid(b94c324ba4e4da242a3a4361b9c5cfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '142bc2d873d85518c5862c5b60385305') in 0.028514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.017012 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/RoomRusticLevel 1.prefab
+  artifactKey: Guid(b94c324ba4e4da242a3a4361b9c5cfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/RoomRusticLevel 1.prefab using Guid(b94c324ba4e4da242a3a4361b9c5cfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb420bbfb715a3fb5c554006c1c4f29f') in 0.025513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.425712 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/RoomRusticLevel 1.prefab
+  artifactKey: Guid(b94c324ba4e4da242a3a4361b9c5cfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/RoomRusticLevel 1.prefab using Guid(b94c324ba4e4da242a3a4361b9c5cfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cddcfb197e69a327d3a800c8ad2126de') in 0.025747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.402892 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/RoomRusticLevel 1.prefab
+  artifactKey: Guid(b94c324ba4e4da242a3a4361b9c5cfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/RoomRusticLevel 1.prefab using Guid(b94c324ba4e4da242a3a4361b9c5cfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64986fda78493059bc18c34330603360') in 0.025329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.391252 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/RoomRusticLevel 1.prefab
+  artifactKey: Guid(b94c324ba4e4da242a3a4361b9c5cfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/RoomRusticLevel 1.prefab using Guid(b94c324ba4e4da242a3a4361b9c5cfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '539843aa08dfde34f6454d7058f3f8b1') in 0.025717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 72.028139 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/RoomRusticRIghtCorner.prefab
+  artifactKey: Guid(b94c324ba4e4da242a3a4361b9c5cfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/RoomRusticRIghtCorner.prefab using Guid(b94c324ba4e4da242a3a4361b9c5cfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '897fa5f93ccb648d705ca1eda917549e') in 0.025893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.728966 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/RoomRusticLevel 1.prefab
+  artifactKey: Guid(cf20879b2a03b07419e5a16bc70743ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/RoomRusticLevel 1.prefab using Guid(cf20879b2a03b07419e5a16bc70743ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a4a9f4d93fedb608a56a1deb331f393') in 0.026828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.313777 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/RoomRusticLevel 1.prefab
+  artifactKey: Guid(cf20879b2a03b07419e5a16bc70743ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/RoomRusticLevel 1.prefab using Guid(cf20879b2a03b07419e5a16bc70743ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e54923c503fac8a59c17a9c92a47aac8') in 0.026076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.755766 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/RoomRusticLevel 1.prefab
+  artifactKey: Guid(cf20879b2a03b07419e5a16bc70743ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/RoomRusticLevel 1.prefab using Guid(cf20879b2a03b07419e5a16bc70743ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89b812e2476fd3ff993aaf409502c7e4') in 0.025785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.995122 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/RoomRusticLevel 1.prefab
+  artifactKey: Guid(cf20879b2a03b07419e5a16bc70743ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/RoomRusticLevel 1.prefab using Guid(cf20879b2a03b07419e5a16bc70743ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c65378a4683f3ac85b114af49fac5d53') in 0.025233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.637692 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/RoomRusticLevel 1.prefab
+  artifactKey: Guid(cf20879b2a03b07419e5a16bc70743ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/RoomRusticLevel 1.prefab using Guid(cf20879b2a03b07419e5a16bc70743ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1177a7760b6fec53b410c23f052e618') in 0.025400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.615763 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/RoomRusticLevel 1.prefab
+  artifactKey: Guid(cf20879b2a03b07419e5a16bc70743ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/RoomRusticLevel 1.prefab using Guid(cf20879b2a03b07419e5a16bc70743ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e3f0454bca228c5830bbf7f7913dfcd') in 0.025093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.997481 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/RoomRusticLevel 1.prefab
+  artifactKey: Guid(cf20879b2a03b07419e5a16bc70743ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/RoomRusticLevel 1.prefab using Guid(cf20879b2a03b07419e5a16bc70743ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d27817c35576cb9e859acc2c9d7d355') in 0.025449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.002676 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/RoomRusticLevel 1.prefab
+  artifactKey: Guid(cf20879b2a03b07419e5a16bc70743ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/RoomRusticLevel 1.prefab using Guid(cf20879b2a03b07419e5a16bc70743ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cefc27636fc804a5c7903623a8148a17') in 0.025618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.792601 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/RoomRusticLevel 1.prefab
+  artifactKey: Guid(cf20879b2a03b07419e5a16bc70743ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/RoomRusticLevel 1.prefab using Guid(cf20879b2a03b07419e5a16bc70743ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6d47067b28256bd18fb0b58b380de39') in 0.026383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.192450 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/RoomRusticLevel 1.prefab
+  artifactKey: Guid(cf20879b2a03b07419e5a16bc70743ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/RoomRusticLevel 1.prefab using Guid(cf20879b2a03b07419e5a16bc70743ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01bfc469f0272e770bd32cb60593a5a5') in 0.025800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.422794 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/RoomRusticLevel 1.prefab
+  artifactKey: Guid(cf20879b2a03b07419e5a16bc70743ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/RoomRusticLevel 1.prefab using Guid(cf20879b2a03b07419e5a16bc70743ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9a74ed19bad9553819939460d9d5f90') in 0.025655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 55.147366 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/RoomRusticLeftCorner.prefab
+  artifactKey: Guid(cf20879b2a03b07419e5a16bc70743ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/RoomRusticLeftCorner.prefab using Guid(cf20879b2a03b07419e5a16bc70743ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01717857cd84780bd0c815fdf95eb5ac') in 0.027311 seconds 
