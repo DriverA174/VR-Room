@@ -380,6 +380,7 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
 "Assets/follow.cs"
+"Assets/_Course Library/GrabDoor.cs"
 "Assets/_Course Library/Scripts/Actions/ApplyPhysics.cs"
 "Assets/_Course Library/Scripts/Actions/ChangeMaterial.cs"
 "Assets/_Course Library/Scripts/Actions/ConvertValueToHue.cs"
