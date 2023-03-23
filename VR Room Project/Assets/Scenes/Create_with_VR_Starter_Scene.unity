@@ -3271,9 +3271,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: RoomRusticLevel
       objectReference: {fileID: 0}
+    - target: {fileID: 6307334502682940135, guid: 599a48b2a5445914b8002a8bbe29c2cc, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6653022614830252059, guid: 599a48b2a5445914b8002a8bbe29c2cc, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0.051
+      objectReference: {fileID: 0}
+    - target: {fileID: 6731601028731805901, guid: 599a48b2a5445914b8002a8bbe29c2cc, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6731601028731805901, guid: 599a48b2a5445914b8002a8bbe29c2cc, type: 3}
+      propertyPath: m_TagString
+      value: Door
       objectReference: {fileID: 0}
     - target: {fileID: 7891095538549670975, guid: 599a48b2a5445914b8002a8bbe29c2cc, type: 3}
       propertyPath: m_RootOrder
@@ -3351,7 +3363,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 2
 --- !u!59 &650623293
 HingeJoint:
   m_ObjectHideFlags: 0
@@ -4257,13 +4269,13 @@ GameObject:
   - component: {fileID: 1101706021}
   - component: {fileID: 1101706020}
   - component: {fileID: 1101706019}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Handler
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1101706018
 Transform:
   m_ObjectHideFlags: 0
@@ -5501,13 +5513,13 @@ GameObject:
   - component: {fileID: 1762472349}
   - component: {fileID: 1762472348}
   - component: {fileID: 1762472347}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GrabbableHandler
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1762472346
 Transform:
   m_ObjectHideFlags: 0
