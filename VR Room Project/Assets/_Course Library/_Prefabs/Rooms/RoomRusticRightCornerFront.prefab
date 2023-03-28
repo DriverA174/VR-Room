@@ -1027,6 +1027,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Room_Rustic_Floor
       objectReference: {fileID: 0}
+    - target: {fileID: 8597759551447975562, guid: 5546f4d60cacc4176a3a8545480f7f25, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5546f4d60cacc4176a3a8545480f7f25, type: 3}
 --- !u!4 &5584914346035769906 stripped

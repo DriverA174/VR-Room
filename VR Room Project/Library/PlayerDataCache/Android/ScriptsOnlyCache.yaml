@@ -59,6 +59,7 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
     Unity.XR.Interaction.Toolkit.Editor.dll:
     - UnityEditor.XR.Interaction.Toolkit.XRInteractionEditorSettings
     Unity.XR.Interaction.Toolkit.dll:
@@ -110,7 +111,9 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.EventTrigger
+    - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.ContentSizeFitter
@@ -155,6 +158,7 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteCharacter
     - TMPro.TMP_SpriteGlyph
     - TMPro.TMP_Style
+    - TMPro.VertexGradient
     Unity.XR.Interaction.Toolkit:
     - UnityEngine.XR.Interaction.Toolkit.ActivateEvent
     - UnityEngine.XR.Interaction.Toolkit.DeactivateEvent
@@ -300,6 +304,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3016}
     - Class: 114
+      Script: {instanceID: 3224}
+    - Class: 114
       Script: {instanceID: 3846}
     - Class: 114
       Script: {instanceID: 3950}
@@ -362,6 +368,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7432}
     - Class: 114
+      Script: {instanceID: 7442}
+    - Class: 114
       Script: {instanceID: 7538}
     - Class: 114
       Script: {instanceID: 7544}
@@ -375,6 +383,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 7804}
     - Class: 114
       Script: {instanceID: 7826}
+    - Class: 114
+      Script: {instanceID: 7884}
     - Class: 114
       Script: {instanceID: 7902}
     - Class: 114
