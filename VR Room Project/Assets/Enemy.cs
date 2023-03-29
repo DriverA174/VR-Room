@@ -8,6 +8,7 @@ public class Enemy : MonoBehaviour{
     public Transform player;
     public LayerMask whatIsGround, whatIsPlayer;
     public float health;
+    Counter counterScript;
 
     //patrolling
     public Vector3 walkPoint;
@@ -26,6 +27,7 @@ public class Enemy : MonoBehaviour{
     private void Awake(){
         player = GameObject.Find("Player").transform;
         agent = GetComponent<NavMeshAgent>();
+        counterScript = GameObject.Find("Counter").GetComponent<Counter>();
     }
 
     private void Update(){
@@ -77,7 +79,7 @@ public class Enemy : MonoBehaviour{
             /// Attack Code here
             Rigidbody rb = Instantiate(projectile, transform.position, Quaternion.identity).GetComponent<Rigidbody>();
             rb.AddForce(transform.forward * 32f, ForceMode.Impulse);
-            rb.AddForce(transform.up * 8f, ForceMode.Impulse);
+            rb.AddForce(transform.up * 4f, ForceMode.Impulse);
             ///
             alreadyAttacked = true;
             Invoke(nameof(ResetAttack), timeBetweenAttacks);
@@ -94,7 +96,16 @@ public class Enemy : MonoBehaviour{
         if (health <= 0) Invoke(nameof(DestroyEnemy), 0.5f);
     }
 
+    void OnCollisionEnter(Collision collision)
+    {
+        if (collision.collider.CompareTag("Weapon"))
+        {
+            TakeDamage(1);
+        }
+    }
+
     private void DestroyEnemy(){
+        counterScript.AddKill();
         Destroy(gameObject);
     }
 

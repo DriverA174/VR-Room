@@ -1,0 +1,400 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.14f1 (eee1884e7226) revision 15655304'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Education' Language: 'en' Physical Memory: 7531 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/1142430/Documents/GitHub/VR-Room/VR Room Project
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+53203
+Successfully changed project path to: C:/Users/1142430/Documents/GitHub/VR-Room/VR Room Project
+C:/Users/1142430/Documents/GitHub/VR-Room/VR Room Project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 92.56 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 1.08 ms.
+Initialize engine version: 2021.3.14f1 (eee1884e7226)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/1142430/Documents/GitHub/VR-Room/VR Room Project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6400 (ID=0x743f)
+    Vendor:   ATI
+    VRAM:     4052 MB
+    Driver:   30.0.14030.4003
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56284
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.015461 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 53.58 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.582 seconds
+Domain Reload Profiling:
+	ReloadAssembly (582ms)
+		BeginReloadAssembly (96ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (376ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (82ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (224ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (53ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (54ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (74ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.015685 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 53.81 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Package Manager log level set to [2]
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\1142430\Documents\GitHub\VR-Room\VR Room Project\Library\PackageCache\com.unity.xr.oculus@3.2.1\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\1142430\Documents\GitHub\VR-Room\VR Room Project\Library\PackageCache\com.unity.xr.oculus@3.2.1\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d6232873609549b8a045fa15811a5bd3>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <d6232873609549b8a045fa15811a5bd3>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <d6232873609549b8a045fa15811a5bd3>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <6a5b55f2e18b419e9faedac06ac6af94>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.249 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1250ms)
+		BeginReloadAssembly (211ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (125ms)
+		EndReloadAssembly (934ms)
+			LoadAssemblies (125ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (182ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (539ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (54ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (279ms)
+				ProcessInitializeOnLoadMethodAttributes (74ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.05 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 4361 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (465.1 KB). Loaded Objects now: 4802.
+Memory consumption went from 191.4 MB to 190.9 MB.
+Total: 3.411300 ms (FindLiveObjects: 0.320600 ms CreateObjectMapping: 0.120800 ms MarkObjects: 2.716300 ms  DeleteObjects: 0.252600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 9099.709975 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Materials/PolyartDefault.mat
+  artifactKey: Guid(507d4aa237c275a48b72e5772879be66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Materials/PolyartDefault.mat using Guid(507d4aa237c275a48b72e5772879be66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffd93fb43e26ecc4617ce77c9f4debb3') in 0.248003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.167158 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Textures/PBRSlimeAlbedo.png
+  artifactKey: Guid(0f625c9ed25ed7c479d59c9a7e72177b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Textures/PBRSlimeAlbedo.png using Guid(0f625c9ed25ed7c479d59c9a7e72177b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8bd9cbe448a76bceb17b4a9711337ba') in 0.025836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Textures/PBRTurtleShellNormal.png
+  artifactKey: Guid(86f7e285a9594474785378ee66ed8b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Textures/PBRTurtleShellNormal.png using Guid(86f7e285a9594474785378ee66ed8b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '311a40945facbf5d855f4b101fb75416') in 0.018865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Textures/PBRTurtleShellAlbedo.png
+  artifactKey: Guid(8d1af929e130869459814fc6a74e0a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Textures/PBRTurtleShellAlbedo.png using Guid(8d1af929e130869459814fc6a74e0a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '200d2cfb9f20ba629c779cfa96b6c87d') in 0.013868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 130.214764 seconds.
+  path: Assets/Polygonal Metalon/Materials/Polygonal Metalon Red 1.mat
+  artifactKey: Guid(54fbad0a715aee64a8cb3257208991cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Metalon/Materials/Polygonal Metalon Red 1.mat using Guid(54fbad0a715aee64a8cb3257208991cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46010320039a8892f2c801e1ef5753e4') in 0.013816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.337247 seconds.
+  path: Assets/Polygonal Metalon/Prefabs/Polygonal Metalon Red.prefab
+  artifactKey: Guid(f88c6ad57910d8648807bcf0c131f49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Metalon/Prefabs/Polygonal Metalon Red.prefab using Guid(f88c6ad57910d8648807bcf0c131f49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39fa8d46f3a035b5ea64b06fe1d5c93f') in 0.081085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 68.482410 seconds.
+  path: Assets/Settings/UniversalRenderPipelineAsset.asset
+  artifactKey: Guid(ca51ab8269d7945dd9bbb86c7c9a4ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/UniversalRenderPipelineAsset.asset using Guid(ca51ab8269d7945dd9bbb86c7c9a4ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ac9defdc1dbe1547a89f3929325388a') in 0.006666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.267671 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Scenes
+  artifactKey: Guid(1c838ee21afece14487b460b85f39b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Scenes using Guid(1c838ee21afece14487b460b85f39b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f4ab26c9a4fbc225e11e9e456f6be8e') in 0.003366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.853948 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Prefabs
+  artifactKey: Guid(8127742742335384f97472bb26841d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Prefabs using Guid(8127742742335384f97472bb26841d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '531d5787f328a1d6394128649c6f687d') in 0.002824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.630002 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Materials
+  artifactKey: Guid(a9542135e3940dd449ec2cf59b7d110c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Materials using Guid(a9542135e3940dd449ec2cf59b7d110c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '197a62d556867969df5bb5cede314219') in 0.003186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.757875 seconds.
+  path: Assets/RPG Monster Duo PBR Polyart/Textures
+  artifactKey: Guid(6840729219228ab4880b45e06d1e3211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Duo PBR Polyart/Textures using Guid(6840729219228ab4880b45e06d1e3211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2535bad0822fb505f67391449bc9526') in 0.002969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 198.664530 seconds.
+  path: Assets/_Course Library/_Prefabs/Objects/Sports/Baseball_Ball.prefab
+  artifactKey: Guid(093d994e44bd73043850362e6d954a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Objects/Sports/Baseball_Ball.prefab using Guid(093d994e44bd73043850362e6d954a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '272af51b6491d48a37e05d0a1a7d1abf') in 0.023385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.238557 seconds.
+  path: Assets/_Course Library/_Prefabs/Objects/Sports/Baseball_Ball.prefab
+  artifactKey: Guid(093d994e44bd73043850362e6d954a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Objects/Sports/Baseball_Ball.prefab using Guid(093d994e44bd73043850362e6d954a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3c85767d3547f43b3f4f05efbab7243') in 0.014649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.774417 seconds.
+  path: Assets/Projectile.cs
+  artifactKey: Guid(e0663b6c20490ca45a60d736d0b50b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Projectile.cs using Guid(e0663b6c20490ca45a60d736d0b50b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3f43ffd91fa0084b2c4fe83811ec9f0') in 0.007011 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015874 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.34 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\1142430\Documents\GitHub\VR-Room\VR Room Project\Library\PackageCache\com.unity.xr.oculus@3.2.1\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\1142430\Documents\GitHub\VR-Room\VR Room Project\Library\PackageCache\com.unity.xr.oculus@3.2.1\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d6232873609549b8a045fa15811a5bd3>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <d6232873609549b8a045fa15811a5bd3>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <d6232873609549b8a045fa15811a5bd3>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <6a5b55f2e18b419e9faedac06ac6af94>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.070 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1071ms)
+		BeginReloadAssembly (145ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (836ms)
+			LoadAssemblies (106ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (184ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (441ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (244ms)
+				ProcessInitializeOnLoadMethodAttributes (78ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7.21 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 4216 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (424.6 KB). Loaded Objects now: 4898.
+Memory consumption went from 217.6 MB to 217.2 MB.
+Total: 4.563200 ms (FindLiveObjects: 0.412000 ms CreateObjectMapping: 0.116200 ms MarkObjects: 3.468000 ms  DeleteObjects: 0.565700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 54.639465 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc33d4299c01b58f64d768ae623bd46b') in 0.017383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.235463 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(0d777402b5df94a8192f1a256e74d334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(0d777402b5df94a8192f1a256e74d334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb11fca62949093cd06b9cef9e9bf067') in 0.002589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 163.045925 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/Room_Rustic.prefab
+  artifactKey: Guid(991f7faf3818ce24d854dd90bfceb80b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/Room_Rustic.prefab using Guid(991f7faf3818ce24d854dd90bfceb80b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11035b8e878dc37321e79034d682a181') in 0.194747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.154328 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/RoomRusticLeftCornerBack.prefab
+  artifactKey: Guid(cf20879b2a03b07419e5a16bc70743ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/RoomRusticLeftCornerBack.prefab using Guid(cf20879b2a03b07419e5a16bc70743ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87d35c9dd5882fc386577aa107cc2135') in 0.029830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.081584 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/RoomRusticLeftCornerFront.prefab
+  artifactKey: Guid(d087ada1ad4467249abeeb59cd929f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/RoomRusticLeftCornerFront.prefab using Guid(d087ada1ad4467249abeeb59cd929f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b4c69aab9b4461d0d9c6f35f2008edb') in 0.030379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.087085 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/RoomRusticLeftEdge.prefab
+  artifactKey: Guid(36004023b0833e845b7b7efe040a4403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/RoomRusticLeftEdge.prefab using Guid(36004023b0833e845b7b7efe040a4403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aeefa01ed71185363dd81b1ae11f8ba') in 0.030336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 55.627282 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/RoomRusticLevel.prefab
+  artifactKey: Guid(599a48b2a5445914b8002a8bbe29c2cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/RoomRusticLevel.prefab using Guid(599a48b2a5445914b8002a8bbe29c2cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c8a40a2ab924dca99f0b3ccc9ebc784') in 0.030312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.052810 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/RoomRusticLevelNoDoor.prefab
+  artifactKey: Guid(467fc65db52e1914caf55d6a7695242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/RoomRusticLevelNoDoor.prefab using Guid(467fc65db52e1914caf55d6a7695242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa679de97be1b97fbabb49acb1cf6bc1') in 0.028583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.265648 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/RoomRusticRIghtCornerBack.prefab
+  artifactKey: Guid(b94c324ba4e4da242a3a4361b9c5cfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/RoomRusticRIghtCornerBack.prefab using Guid(b94c324ba4e4da242a3a4361b9c5cfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5f322fcdd58dedb670e72366bbd8dca') in 0.030609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.253156 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/RoomRusticRightCornerFront.prefab
+  artifactKey: Guid(3c1ead6475aa230498478dbedbf5c433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/RoomRusticRightCornerFront.prefab using Guid(3c1ead6475aa230498478dbedbf5c433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aac2b3bf4de0e9bd6132f5e5cbf94c17') in 0.028479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.776070 seconds.
+  path: Assets/_Course Library/_Prefabs/Rooms/RoomRusticRightEdge.prefab
+  artifactKey: Guid(07de295deb0ae1b4cacfd264dc32666f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Rooms/RoomRusticRightEdge.prefab using Guid(07de295deb0ae1b4cacfd264dc32666f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e85a98be416e9cf083e347c1e24667e3') in 0.026480 seconds 
